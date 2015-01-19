@@ -222,12 +222,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'y]_e8+uKr>o+n+RvMiL7dD_$Io@EuHp1y29C]+Xz2X7b-+,)P_12`Hhl_y>JL=T$');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '76859309625453542496734683645'); 
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
@@ -245,7 +245,7 @@
  * and /vendors/csspp/csspp.php
  *
  * To use, prefix the CSS link URL with '/ccss/' instead of '/css/' or use HtmlHelper::css().
- */
+ */ 
 	//Configure::write('Asset.filter.css', 'css.php');
 
 /**
